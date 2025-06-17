@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>O Equilíbrio entre o Campo e a Cidade</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>O Equilíbrio entre o Campo e a Cidade</h1>
+<img src="campo-e-cidade.jpg" alt="Imagem de uma paisagem dividida entre a tranquilidade do campo e a modernidade da cidade.">
+<p>O campo e a cidade, embora distintos, têm uma relação interdependente. Explorar o equilíbrio entre esses dois mundos é essencial para um desenvolvimento sustentável e harmônico.</p>
+<nav>
+<ul>
+<li><a href="#desafios">Desafios</a></li>
+<li><a href="#oportunidades">Oportunidades</a></li>
+<li><a href="#conclusao">Conclusão</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section id="desafios" class="conteudo">
+<h2>Desafios</h2>
+<article>
+<h3>Urbanização e Perda de Áreas Verdes</h3>
+<p>O crescimento das cidades resulta na ocupação de terras antes destinadas à agricultura ou à preservação ambiental. Isso reduz o espaço disponível para a natureza e impacta a qualidade de vida urbana.</p>
+</article>
+
+<article>
+<h3>Distância entre Produção Rural e Consumo Urbano</h3>
+<p>A crescente urbanização faz com que a produção agrícola do campo precise percorrer longas distâncias para chegar aos centros urbanos, aumentando os custos e o impacto ambiental do transporte.</p>
+</article>
+
+<article>
+<h3>Desigualdade no Acesso a Recursos</h3>
+<p>Enquanto as áreas rurais enfrentam dificuldades no acesso a serviços essenciais, como saúde e educação, as cidades concentram recursos, criando uma disparidade no bem-estar social entre campo e cidade.</p>
+</article>
+
+<a href="https://www.youtube.com/watch?v=ILh7nDEKGqc&pp=ygUXSW1wYWN0byBkbyBEZXNtYXRhbWVudG8%3D" class="cta-button" target="_blank">Como integrar o campo e a cidade? <i class="fa-solid fa-arrow-up-right-from-square" style="color: var(--text-color);"></i></a>
+</section>
+
+<section id="oportunidades" class="conteudo">
+<h2>Oportunidades</h2>
+<ul>
+<li>Promoção do turismo rural e ecoturismo</li>
+<li>Valorização da agricultura urbana e hortas comunitárias</li>
+<li>Integração de tecnologias sustentáveis entre campo e cidade</li>
+<li>Revalorização do patrimônio cultural rural nas áreas urbanas</li>
+<li>Melhoria da mobilidade entre áreas rurais e urbanas</li>
+<li>Investimentos em soluções sustentáveis para ambas as realidades</li>
+</ul>
+</section>
+
+<section id="conclusao" class="conteudo">
+<h2>Conclusão</h2>
+<p>A convivência harmoniosa entre o campo e a cidade é essencial para garantir um futuro sustentável. Ao promover práticas integradas e equilibradas, podemos aproveitar as vantagens de ambos os mundos, preservando recursos naturais e melhorando a qualidade de vida.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ILh7nDEKGqc?si=feol6sZCHo1Cg-jQ" title="YouTube video.">
+</section>
+
+</main>
+
+<footer>
+<a href="https://www.linkedin.com/in/femascheti" class="cta-footer">Faça parte dessa causa!</a>
+<p>2025 | @femascheti</p>
+</footer>
+</body>
+</html>

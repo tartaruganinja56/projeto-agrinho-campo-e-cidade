@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+
+/* Variáveis */
+:root {
+    --primary-color: #4CAF50; /* Verde, remete ao campo e à natureza */
+    --secondary-color: #80C7B1; /* Verde claro, frescor e água, evoca o meio ambiente */
+    --text-color: #3E4A4F; /* Cinza escuro, para garantir legibilidade */
+    --background-color: #F0E6D2; /* Tom suave de areia, remete à terra */
+    --button-hover: #2E5D5B; /* Um tom mais forte de verde, para o hover do botão */
+    --font-body: "Chocolate Classical Sans", serif; /* Fonte para o texto principal */
+    --font-titulo: "Rakkas", serif; /* Fonte para os títulos */
+}
+
+/* Resetando alguns estilos para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do Body */
+body {
+    font-family: var(--font-body), sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: var(--font-titulo), serif;
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+header img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Adicionando suavização ao hover */
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color);
+}
+
+/* Estilo das Seções */
+section.conteudo {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-family: var(--font-titulo), serif;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-family: var(--font-body), serif;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+section ul {
+    margin-left: 20px;
+}
+
+/* Estilo do Botão */
+.cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Suavizando a interação */
+}
+
+.cta-button:hover {
+    background-color: var(--button-hover);
+    transform: scale(1.05); /* Leve efeito de aumento no hover */
+}
+
+/* Estilo do Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
+footer .cta-footer {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+footer .cta-footer:hover {
+    color: var(--secondary-color);
+}
